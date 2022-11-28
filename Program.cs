@@ -3,3 +3,6 @@
 // При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 // [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 
+string[] array1 = new string[] {"Hello", "2", "world", ":-)", "1234", "1567", "-2", "computer science"};;
+string[] array2 = new string[array1.Length];
+void SecondArrayWithIf(string[] array1, string[] array2)
